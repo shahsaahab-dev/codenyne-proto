@@ -1,0 +1,56 @@
+@media screen and (max-width:768px){
+    nav.main {
+        display: none;
+    }
+    
+    header button.codenyne-button-style-2.free-estimation {display: none;}
+    
+    .hero-services-img {
+        display: none;
+    }
+    
+    header.sticky {
+        padding: 10px;
+    }
+    
+    .hero-main-wrapper {
+        background-position: right;
+    }
+    
+    .portfolio-image-single {
+        margin: 0px 3px 3px 3px;
+    }
+    
+    .portfolio-grid {
+        margin-top: 5px;
+    }
+    
+    section#about-us .row {
+        flex-flow: column-reverse;
+    }
+    
+    .services-boxes a {
+        flex-basis: 100%;
+        margin: 0 auto 0 0;
+    }
+    
+    section#remote_team {
+        padding: 50px 20px;
+    }
+    
+    .team-remote-bg {
+        display: none;
+    }
+    
+    .feature-single {
+        flex-basis: 50%;
+    }
+    
+    .single-service-box {
+        min-height: 100px;
+    }
+    
+    section#services-we-offer {
+        padding-left: 20px;
+    }
+}
